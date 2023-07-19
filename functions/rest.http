@@ -1,0 +1,16 @@
+GET http://127.0.0.1:5001/fir-fn-696f8/us-central1/api
+
+###
+POST http://127.0.0.1:5001/fir-fn-696f8/us-central1/api
+Content-Type: application/json
+
+{
+    "name": "Wasif Alam",
+    "age": 24
+}
+
+###
+DELETE http://127.0.0.1:5001/fir-fn-696f8/us-central1/api
+
+###
+PATCH http://127.0.0.1:5001/fir-fn-696f8/us-central1/api
